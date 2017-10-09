@@ -10,27 +10,30 @@ describe('DashboardComponent', () => {
   let de: DebugElement;
   let el: HTMLElement;
 
-  beforeEach(() => {
+  beforeEach(async() => {
     TestBed.configureTestingModule({
       declarations: [ DashboardComponent ] // declare the test component
-    });
+    })
+    .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(DashboardComponent);
     comp = fixture.componentInstance;  // DashboardComponent test instance
 
     //query for the title <h1> by CSS element selector
-    de = fixture.debugElement.query(By.css('h1'));
+    de = fixture.debugElement.query(By.css('h3'));
     el = de.nativeElement;
   });
 
   it('should display original title', () => {
     fixture.detectChanges();
-    expect(el.textContent).toContain(comp.title);
+    expect(el.textContent).toContain(comp.name);
   });
 
   it('should display a different test title', () => {
-    comp.title = 'Test Title';
+    comp.name = 'Test Name';
     fixture.detectChanges();
-    expect(el.textContent).toContain('Test Title');
+    expect(el.textContent).toContain('Test Name');
   });
 });
