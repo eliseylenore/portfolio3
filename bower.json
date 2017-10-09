@@ -1,0 +1,20 @@
+{
+  "name": "portfolio3",
+  "description": "Angular version of my portfolio",
+  "main": "",
+  "authors": [
+    "Elise St Hilaire <eliseylenore@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
