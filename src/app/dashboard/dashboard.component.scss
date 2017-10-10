@@ -1,10 +1,6 @@
 @import '.././app.component';
 /** mixins from app.component **/
 
-.nav {
-  padding-right: 30px;
-}
-
 .top, .top a {
     color: white;
 }
@@ -14,7 +10,15 @@
 }
 
 .top h3 {
-  margin-left: 30px;
-  margin-top: 10px;
-  display: inline-block;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-nav {
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
+    }
+  }
 }
