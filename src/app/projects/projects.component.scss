@@ -1,3 +1,30 @@
+/**** mixin for multiline ****/
+@mixin multiLineEllipsis($lineHeight: 1.2em, $lineCount: 1, $bgColor: white){
+  overflow: hidden;
+  position: relative;
+  line-height: $lineHeight;
+  max-height: $lineHeight * $lineCount;
+  text-align: justify;
+  margin-right: -1em;
+  padding-right: 1em;
+  &:before {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: $bgColor;
+  }
+}
+
+/**** Regular scss ****/
 .img {
   background-image: url('../../assets/img/Dress2Impress.png');
   position: relative;
@@ -7,4 +34,20 @@
  background-position: 50% 50%;
  background-repeat:   no-repeat;
  background-size:     cover;
+}
+
+.row.project-list {
+  margin-top: 20px;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+// h3 {
+//   margin-top: 0;
+// }
+
+.truncate {
+  @include multiLineEllipsis($lineHeight: 1.3em, $lineCount: 5, $bgColor: white);
 }
