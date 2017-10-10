@@ -11,14 +11,26 @@
 
 .top h3 {
   text-align: center;
+  margin-top: 10px;
 }
 
-@media screen and (max-width: 725px) {
+.navbar-nav {
+  text-align: center;
+  > li {
+    float: none;
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 725px) {
   .navbar-nav {
-    text-align: center;
-    > li {
-      float: none;
-      display: inline-block;
-    }
+    float: right;
+    display: block;
+    margin-right: 30px;
+  }
+
+  .top h3 {
+    float: left;
+    margin-left: 30px;
   }
 }

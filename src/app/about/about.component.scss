@@ -3,7 +3,7 @@
 
 .profile-pic {
   border-radius: 25%;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 .about h3{
@@ -36,4 +36,12 @@
 
 .contact-info a.facebook {
   background-image: url("../../assets/img/facebook.png");
+}
+
+@media screen and (min-width: 445px) {
+  .profile-pic {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
 }
