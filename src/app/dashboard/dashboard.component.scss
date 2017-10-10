@@ -1,4 +1,5 @@
 @import '.././app.component';
+/** mixins from app.component **/
 
 .nav {
   padding-right: 30px;
@@ -8,7 +9,7 @@
     color: white;
 }
 .top {
-  background-color: #00b3e5;
+  background-color: $bright-blue;
   padding: 30px;
 }
 
