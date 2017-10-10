@@ -2,6 +2,7 @@ import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { AboutComponent } from './about/about.component';
 
 const appRoutes: Routes = [
   {
@@ -11,6 +12,10 @@ const appRoutes: Routes = [
   {
     path: 'projects',
     component: ProjectsComponent
+  },
+  {
+    path: 'about',
+    component: AboutComponent
   }
 ]
 
