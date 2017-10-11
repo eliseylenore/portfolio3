@@ -1,11 +1,13 @@
 import { Injectable } from '@angular/core';
 import { Project } from './project.model';
-import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import { AngularFireDatabaseModule, AngularFireDatabase, AngularFireList } from 'angularfire2/database';
+
+import * as Firebase from "firebase";
 
 
 @Injectable()
 export class ProjectService {
-  projects: FirebaseListObservable<any[]>
+  projects: AngularFireList<any[]>
 
   constructor(private database: AngularFireDatabase) {
     this.projects = database.list('projects');
