@@ -30,6 +30,10 @@ $nav-padding: 20px;
   }
 }
 
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: $darker-blue;
+}
+
 @media screen and (min-width: 725px) {
   .navbar-nav {
     float: right;
