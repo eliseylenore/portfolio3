@@ -9,8 +9,8 @@
           <!-- <img src="{{product.imageUrl}}"/> -->
         </div>
         <div class="col-xs-5">
-          <h3>{{project.name}}</h3>
-          <h5>Angular2, Firebase, Stripe API</h5>
+          <h3>{{project.title}}</h3>
+          <h5 *ngFor="let language of project.languages">{{language}}</h5>
           <div class="truncate">
             <p>
               As a job seeker myself, I know that looking for a full-time job is not for the faint of heart. Even the smallest things can effect an impression. Since this is the case, I decided to mock up an online store that helps job seekers find professional-looking, worry-free clothing.

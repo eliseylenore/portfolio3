@@ -3,15 +3,18 @@ import { Project } from './project.model';
 import { AngularFireDatabaseModule, AngularFireDatabase, AngularFireList } from 'angularfire2/database';
 
 import * as Firebase from "firebase";
+import { Observable } from 'rxjs/Observable';
 
+//see https://github.com/angular/angularfire2/issues/1180 for help
 
 @Injectable()
 export class ProjectService {
-  projects;
+  projectsRef: AngularFireList<any>;
+  projects: Observable<any[]>;
 
   constructor(private database: AngularFireDatabase) {
-    this.projects = database.list('projects').snapshotChanges();
-    console.log(this.projects);
+    this.projectsRef = database.list('projects');
+    this.projects = this.projectsRef.valueChanges();
   }
 
   getProjects() {
