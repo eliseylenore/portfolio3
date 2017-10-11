@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Project } from '../project/project.model';
+import { FirebaseListObservable } from 'angularfire2/database';
+import { ProjectService } from '../project/project.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-projects',
@@ -7,9 +11,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private productService: ProjectService,
+    private router: Router
+  ) { }
+  projects: FirebaseListObservable<any[]>;
 
   ngOnInit() {
+    this.projects = this.productService.getProjects();
   }
 
 }
