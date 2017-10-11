@@ -2,7 +2,7 @@
 /** mixins from app.component **/
 
 .spiel h1 {
-  font-size: 72px;
+  font-size: 50px;
   padding-bottom: 1em;
 }
 
@@ -15,5 +15,16 @@
 }
 
 .spaceholder {
-  height: 150px;
+  height: 50px;
+}
+
+@media screen and (min-width: 425px) {
+  .spaceholder {
+    height: 150px;
+  }
+
+  .spiel h1 {
+    font-size: 72px;
+  }
+
 }

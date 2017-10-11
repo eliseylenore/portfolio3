@@ -1,17 +1,25 @@
 @import '.././app.component';
+$nav-padding: 20px;
 /** mixins from app.component **/
 
 .top, .top a {
     color: white;
 }
+
+.top a {
+  font-size: 20px;
+}
+
 .top {
   background-color: $bright-blue;
-  padding: 30px;
+  padding: $nav-padding;
 }
 
 .top h3 {
+  font-size: 40px;
+  font-variant: small-caps;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 .navbar-nav {
@@ -26,11 +34,11 @@
   .navbar-nav {
     float: right;
     display: block;
-    margin-right: 30px;
+    margin-right: $nav-padding;
   }
 
   .top h3 {
     float: left;
-    margin-left: 30px;
+    margin-left: $nav-padding;
   }
 }
