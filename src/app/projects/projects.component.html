@@ -1,7 +1,7 @@
 
 <div class="row project-list">
   <div class="col-md-6 project">
-    <div *ngFor="let project of projects" class="panel panel-default">
+    <div *ngFor="let project of projects | async" class="panel panel-default">
       <div class="panel-body">
         <div class="col-xs-7">
           <div class="img">

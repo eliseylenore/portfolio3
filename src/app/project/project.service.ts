@@ -7,10 +7,11 @@ import * as Firebase from "firebase";
 
 @Injectable()
 export class ProjectService {
-  projects: AngularFireList<any[]>
+  projects;
 
   constructor(private database: AngularFireDatabase) {
-    this.projects = database.list('projects');
+    this.projects = database.list('projects').snapshotChanges();
+    console.log(this.projects);
   }
 
   getProjects() {
