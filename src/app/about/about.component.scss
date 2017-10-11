@@ -9,7 +9,7 @@
 .about h3{
   font-family: $Pacifico;
   font-size: 5rem;
-  margin: 5rem 0;
+  margin: 3rem 0;
   text-align: center;
 }
 
@@ -41,7 +41,10 @@
 @media screen and (min-width: 445px) {
   .profile-pic {
     float: left;
-    margin-right: 10px;
+    margin-right: 25px;
     margin-bottom: 0;
+  }
+  .contact-info {
+    margin-left: 25px;
   }
 }
