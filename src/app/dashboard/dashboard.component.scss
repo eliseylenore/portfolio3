@@ -11,15 +11,16 @@ $nav-padding: 20px;
 }
 
 .top {
+  overflow: auto;
   background-color: $bright-blue;
   padding: $nav-padding;
 }
 
 .top h3 {
   font-size: 40px;
-  font-variant: small-caps;
   text-align: center;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .navbar-nav {
@@ -36,9 +37,12 @@ $nav-padding: 20px;
 
 @media screen and (min-width: 725px) {
   .navbar-nav {
-    float: right;
     display: block;
     margin-right: $nav-padding;
+  }
+
+  .navbar-nav.navbar-left {
+    float: left;
   }
 
   .top h3 {
