@@ -1,6 +1,6 @@
 # My Portfolio
 ### By **Elise St Hilaire**
-![Alt text](assets/img/hello.png)
+![alt text](src/assets/img/hello.png)
 
 ## A smattering of the programming I've done.
 
