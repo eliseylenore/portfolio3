@@ -8,5 +8,16 @@
       "photos": [
         "../../assets/img/Dress2Impress.png"
         ]
-  }]
+  },
+  {
+      "title": "Dress To Impress",
+      "languages": "Angular 2, Stripe API, Firebase",
+      "description": [
+        {"text": "As a job seeker myself, I know that looking for a full-time job is not for the faint of heart. Even the smallest things can effect an impression. Since this is the case, I decided to mock up an online store that helps job seekers find professional-looking, worry-free clothing."},
+        {"text": "My site features interview-worthy clothing for men and women of all ages. I used this project as an opportunity to play with the Stripe API, which makes incorporating payments a cinch. Stripe even has a feature for Bitcoin payments, which I will have to explore in the future!"}
+        ],
+        "photos": [
+          "../../assets/img/Dress2Impress.png"
+          ]
+    }]
 }
