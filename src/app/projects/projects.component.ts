@@ -12,7 +12,11 @@ import { Observable } from 'rxjs/Observable';
   providers: [ ProjectService ]
 })
 export class ProjectsComponent implements OnInit {
-  projects: Observable<any[]>
+  projects: Observable<any[]>;
+  private values: Array<any> = [];
+  private anyErrors: boolean;
+  private finished: boolean;
+
   constructor(
     private projectService: ProjectService,
     private router: Router
@@ -22,6 +26,14 @@ export class ProjectsComponent implements OnInit {
   ngOnInit() {
     this.projects = this.projectService.getProjects();
 
+    let subscription = this.projects.subscribe(
+          value => this.values.push(value),
+          error => this.anyErrors = true,
+          () => this.finished = true
+      );
+      console.log(this.values);
   }
+
+
 
 }

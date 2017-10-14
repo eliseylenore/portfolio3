@@ -12,11 +12,8 @@
           <h3>{{project.title}}</h3>
           <h5>{{project.languages}}</h5>
           <div class="truncate">
-            <p>
-              As a job seeker myself, I know that looking for a full-time job is not for the faint of heart. Even the smallest things can effect an impression. Since this is the case, I decided to mock up an online store that helps job seekers find professional-looking, worry-free clothing.
-            </p>
-            <p>
-              My site features interview-worthy clothing for men and women of all ages. I used this project as an opportunity to play with the Stripe API, which makes incorporating payments a cinch. Stripe even has a feature for Bitcoin payments, which I will have to explore in the future!
+            <p *ngFor="let paragraph of project.description" >
+              {{paragraph.text}}
             </p>
           </div>
         </div>

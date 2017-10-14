@@ -23,14 +23,6 @@ $nav-padding: 20px;
   margin-bottom: 0;
 }
 
-.navbar-nav {
-  text-align: center;
-  > li {
-    float: none;
-    display: inline-block;
-  }
-}
-
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: $darker-blue;
 }
