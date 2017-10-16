@@ -38,6 +38,10 @@
   background-image: url("../../assets/img/facebook.png");
 }
 
+ol {
+  padding-left: 20px;
+}
+
 @media screen and (min-width: 445px) {
   .profile-pic {
     float: left;
