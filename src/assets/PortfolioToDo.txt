@@ -3,5 +3,8 @@ To do for designing website:
 projects --> past work OR websites? OR... my work!
 2. Make "front-end web developer" part of the name tag
 3. possibly make your navigation a side bar????
+4. possibly use flexbox for project tiles layout
+
+
 
 
