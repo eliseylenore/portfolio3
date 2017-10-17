@@ -28,6 +28,12 @@
 }
 
 /**** Regular scss ****/
+h1 {
+  color: $white;
+  text-align: center;
+  font-size: 60px;
+}
+
 .img {
   background-image: url('../../assets/img/Dress2Impress.png');
   position: relative;
@@ -56,8 +62,12 @@
   border-radius: 10px;
 }
 
-h5 {
-  font-weight: bold;
+h3 {
+  color: $white;
+  font-family: $Pacifico;
+  font-size: 5rem;
+  margin: 3rem 0;
+  text-align: center;
 }
 .truncate {
   @include multiLineEllipsis($lineHeight: 1.3em, $lineCount: 2, $bgColor: white);
