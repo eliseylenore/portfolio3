@@ -2,9 +2,13 @@
 /** mixins from app.component **/
 
 .about-me {
-  background-color: rgba(0,179,229, 0.2);
+  padding-left:50px;
+  background-color: rgba(255, 255, 255, 0.75);
   height: 100vh;
-  color: white;
+  p, li {
+    color: $pine;
+  }
+  color: $dark-red;
   h4 {
     font-size:24px;
     font-weight: bold;
