@@ -1,9 +1,10 @@
 @import '.././app.component';
-$nav-padding: 20px;
+$nav-padding: 10px;
 /** mixins from app.component **/
 
 .top, .top a {
     color: white;
+    text-align: center;
 }
 
 .top a {
@@ -21,23 +22,38 @@ $nav-padding: 20px;
   margin-top: 0;
   margin-bottom: 0;
 }
-
 .nav > li > a:hover, .nav > li > a:focus {
-  background-color: $darker-blue;
+  // background-color: $darker-blue;
 }
 
-@media screen and (min-width: 725px) {
-  .navbar-nav {
-    display: block;
-    margin-right: $nav-padding;
+@media screen and (min-width: 768px) {
+
+  .nav > li > a {
+    background-image: url("https://vectr.com/eliseylenore/bqoyC6Lvx.svg?width=732.472&height=377.953&select=bamzxcY40y");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 35px;
+    margin-bottom: 10px;
+  }
+  .sidebar-nav {
+    padding-top: 120px;
   }
 
-  .navbar-nav.navbar-left {
-    float: left;
+  .nav > li > a.work {
+    padding: 35px;
+    margin-top:20px;
   }
 
-  .top .title {
-    float: left;
-    margin-left: $nav-padding;
+  .nav > li > a.contact {
+    padding: 25px;
+    margin-top:20px;
+  }
+
+  .top {
+    height: 100vh;
+    background-image: url("https://vectr.com/eliseylenore/bqoyC6Lvx.svg?width=1920&height=1080&select=bqoyC6Lvxpage0");
+    background-position: center;
+    background-size: cover;
   }
 }
