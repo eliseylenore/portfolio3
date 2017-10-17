@@ -5,6 +5,10 @@ projects --> past work OR websites? OR... my work!
 3. possibly make your navigation a side bar????
 4. possibly use flexbox for project tiles layout
 5. change Skills list to fun badges 
+6. mess / background
+
+Color Inspiration: 
+http://colorpalettes.net/color-palette-1410/
 
 
 

@@ -1,3 +1,6 @@
+@import '.././app.component';
+/** color mixins from app.component **/
+
 /**** mixin for multiline ****/
 @mixin multiLineEllipsis($lineHeight: 1.2em, $lineCount: 1, $bgColor: white){
   overflow: hidden;
@@ -41,8 +44,14 @@
 }
 
 .panel-body {
-  color: white;
-  background-color: firebrick;
+  color: #586138;
+  background-color: #eedbc0;
+  border-radius: 10px;
+}
+
+.panel-default {
+  border: none;
+  border-radius: 10px;
 }
 
 h5 {
