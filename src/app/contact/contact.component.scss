@@ -1,0 +1,33 @@
+@import '.././app.component';
+/** color mixins from app.component **/
+
+h3 {
+  @include title();
+}
+
+p, a {
+  font-size: 20px;
+  padding-top: 5px;
+  color: $white;
+}
+
+.contact-info a {
+  display: block;
+  padding: 0 0 0 35px;
+  margin-bottom: 10px;
+  min-height: 25px;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+}
+
+.contact-info a.linkedin {
+  background-image: url("https://vectr.com/eliseylenore/gi6lUV9Lh.svg?width=50&height=50&select=bjE8nXOcI");
+}
+
+.contact-info a.email {
+  background-image: url("https://vectr.com/eliseylenore/gi6lUV9Lh.svg?width=50&height=50&select=cGybFxfh");
+}
+
+.contact-info a.facebook {
+  background-image: url("https://vectr.com/eliseylenore/gi6lUV9Lh.svg?width=50&height=50&select=gi6lUV9Lhpage0");
+}

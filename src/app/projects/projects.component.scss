@@ -1,5 +1,5 @@
 @import '.././app.component';
-/** color mixins from app.component **/
+/** color mixins from app.component and mixin**/
 
 /**** mixin for multiline ****/
 @mixin multiLineEllipsis($lineHeight: 1.2em, $lineCount: 1, $bgColor: white){
@@ -28,11 +28,6 @@
 }
 
 /**** Regular scss ****/
-h1 {
-  color: $white;
-  text-align: center;
-  font-size: 60px;
-}
 
 .img {
   background-image: url('../../assets/img/Dress2Impress.png');
@@ -63,11 +58,7 @@ h1 {
 }
 
 h3 {
-  color: $white;
-  font-family: $Pacifico;
-  font-size: 5rem;
-  margin: 3rem 0;
-  text-align: center;
+  @include title();
 }
 .truncate {
   @include multiLineEllipsis($lineHeight: 1.3em, $lineCount: 2, $bgColor: white);
