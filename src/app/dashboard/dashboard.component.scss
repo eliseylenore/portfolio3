@@ -36,21 +36,24 @@ $nav-padding: 10px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 20px 35px;
-    margin-bottom: 10px;
+    padding: 25px 35px;
+    margin-bottom: 30px;
   }
   .sidebar-nav {
     padding-top: 120px;
   }
 
-  .nav > li > a.work {
-    padding: 40px;
-    margin-top:20px;
+  .nav > li > a:hover {
+    padding: 35px;
+    margin-bottom: 10px;
   }
 
-  .nav > li > a.contact {
-    padding: 25px;
-    margin-top:20px;
+  .nav > li > a.work {
+    padding: 15px;
+    &:hover {
+      padding: 25px;
+      margin-bottom: 10px;
+    }
   }
 
   .top {
