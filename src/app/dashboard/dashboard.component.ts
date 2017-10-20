@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Location} from '@angular/common';
+import {Router} from '@angular/router'
 
 @Component({
   selector: 'app-dashboard',
@@ -8,7 +10,14 @@ import { Component, OnInit } from '@angular/core';
 export class DashboardComponent implements OnInit {
   title = "Dashboard";
   name= "Elise St Hilaire";
-  constructor() { }
+  url: String;
+
+  constructor(router: Router, private location:Location) {
+    router.events.subscribe((event) => {
+            console.log('route changed');
+            this.url = this.location.path();
+        });
+  }
 
   ngOnInit() {
   }

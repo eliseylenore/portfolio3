@@ -31,7 +31,6 @@ export class ProjectsComponent implements OnInit {
           error => this.anyErrors = true,
           () => this.finished = true
       );
-      console.log(this.values);
   }
 
 
