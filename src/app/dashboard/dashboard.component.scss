@@ -26,6 +26,7 @@ $nav-padding: 10px;
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: transparent;
   font-weight: bold;
+  transition: all 0.25s ease-out;
 }
 
 @media screen and (min-width: 768px) {
