@@ -3,7 +3,7 @@
   <div class="col-md-6 project"  *ngFor="let project of projects | async" >
     <div class="panel panel-default"  [ngStyle]= "{'background-image': 'url(' + project.photos[0] + ')'}">
       <div class="panel-body">
-        <div class="overlay">
+        <div class="overlay"  (click)="goToDetailPage(project)">
           <h2>{{project.title}}</h2>
           <h5>{{project.languages}}</h5>
         </div>

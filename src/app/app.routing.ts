@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { ProjectDetailComponent } from './project-detail/project-detail.component';
 
 const appRoutes: Routes = [
   {
@@ -21,6 +22,10 @@ const appRoutes: Routes = [
   {
     path: 'contact',
     component: ContactComponent
+  },
+  {
+  path:'project/:id',
+  component: ProjectDetailComponent
   }
 ]
 

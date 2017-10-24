@@ -33,6 +33,10 @@ export class ProjectsComponent implements OnInit {
       );
   }
 
+  goToDetailPage(clickedProject) {
+   this.router.navigate(['project', clickedProject.key]);
+ };
+
 
 
 }

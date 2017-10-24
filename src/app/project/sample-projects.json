@@ -1,4 +1,5 @@
 { "projects": [{
+    "key": 1,
     "title": "Dress To Impress",
     "languages": "Angular 2, Stripe API, Firebase",
     "url": "https://capstone-project-9ac28.firebaseapp.com/",
@@ -12,6 +13,7 @@
   },
   {
       "title": "StartPup",
+      "key": 2,
       "languages": "Angular 2, Firebase, Bootstrap",
       "description": [
         {"text": "I built this website with a lovely group of students at Epicodus(coding bootcamp). I like to say it is like a Linked In for startups. The app allows users to showcase their skills and get resources and support they need to make their ideas a reality. It also provides an opportunity to share it with a vibrant community of people."},
