@@ -14,8 +14,8 @@ export class DashboardComponent implements OnInit {
 
   constructor(router: Router, private location:Location) {
     router.events.subscribe((event) => {
-            console.log('route changed');
             this.url = this.location.path();
+
         });
   }
 
