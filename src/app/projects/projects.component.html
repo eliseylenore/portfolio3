@@ -1,20 +1,11 @@
 <h3>My Work</h3>
 <div class="project-list">
   <div class="col-md-6 project"  *ngFor="let project of projects | async" >
-    <div class="panel panel-default">
+    <div class="panel panel-default"  [ngStyle]= "{'background-image': 'url(' + project.photos[0] + ')'}">
       <div class="panel-body">
-        <div class="">
-          <div class="img" [ngStyle]= "{'background-image': 'url(' + project.photos[0] + ')'}">
-          </div>
-        </div>
-        <div class="">
+        <div class="overlay">
           <h2>{{project.title}}</h2>
           <h5>{{project.languages}}</h5>
-          <div class="truncate">
-            <p *ngFor="let paragraph of project.description">
-              {{paragraph.text}}
-            </p>
-          </div>
         </div>
       </div>
     </div>
