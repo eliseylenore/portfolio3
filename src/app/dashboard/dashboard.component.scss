@@ -59,6 +59,10 @@ $nav-padding: 10px;
      margin-bottom: 20px;
    }
 
+   .nav > li > a.about:hover, .nav > li > a.about.selected {
+     margin-bottom: 25px;
+   }
+
   .top {
     height: 120vh;
     background-image: url("https://vectr.com/eliseylenore/bqoyC6Lvx.svg?width=1920&height=1080&select=bqoyC6Lvxpage0");
