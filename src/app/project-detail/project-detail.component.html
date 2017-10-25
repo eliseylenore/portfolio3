@@ -4,7 +4,11 @@
   </h3>
   <h4><a [href]='(projectToDisplay | async)?.url' target="_blank" >{{(projectToDisplay | async)?.url}}</a></h4>
   <img [src]="(projectToDisplay | async)?.photos[0]"/>
-  <p *ngFor="let paragraph of (projectToDisplay | async)?.description">
-    {{paragraph.text}}
-  </p>
+  <div class="col-sm-3"></div>
+  <div class="text col-sm-6">
+    <p *ngFor="let paragraph of (projectToDisplay | async)?.description">
+      {{paragraph.text}}
+    </p>
+  </div>
+  <div class="col-sm-3"></div>
 </div>

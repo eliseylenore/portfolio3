@@ -15,6 +15,7 @@ $nav-padding: 10px;
 .top {
   overflow: auto;
   padding: $nav-padding;
+  position: fixed;
 }
 
 .top .title {
