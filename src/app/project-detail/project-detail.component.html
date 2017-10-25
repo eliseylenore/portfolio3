@@ -1,7 +1,9 @@
 <div class="project-detail">
-  <h3>
-    {{(projectToDisplay | async)?.title}}
-  </h3>
+  <div class="row">
+    <h3>
+      {{(projectToDisplay | async)?.title}}
+    </h3>
+  </div>
   <h4><a [href]='(projectToDisplay | async)?.url' target="_blank" >{{(projectToDisplay | async)?.url}}</a></h4>
   <div class="col-xs-12">
     <img [src]="(projectToDisplay | async)?.photos[0]"/>
@@ -12,5 +14,5 @@
       {{paragraph.text}}
     </p>
   </div>
-  <div class="col-md-1"></div>  
+  <div class="col-md-1"></div>
 </div>
