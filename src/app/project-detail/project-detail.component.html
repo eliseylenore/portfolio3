@@ -1,6 +1,10 @@
-<p>
-  {{(projectToDisplay | async)?.title}}
-</p>
-<p>
-  Hello
-</p>
+<div class="container project-detail">
+  <h3>
+    {{(projectToDisplay | async)?.title}}
+  </h3>
+  <h4><a [href]='(projectToDisplay | async)?.url' target="_blank" >{{(projectToDisplay | async)?.url}}</a></h4>
+  <img [src]="(projectToDisplay | async)?.photos[0]"/>
+  <p *ngFor="let paragraph of (projectToDisplay | async)?.description">
+    {{paragraph.text}}
+  </p>
+</div>

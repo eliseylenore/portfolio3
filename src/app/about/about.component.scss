@@ -1,7 +1,7 @@
 @import '.././app.component';
 /** mixins from app.component **/
 
-.about-me {
+.about-me, .project-detail {
   padding-left:50px;
   background-color: rgba(255, 255, 255, 0.75);
   height: 100vh;
@@ -20,7 +20,7 @@
   margin-bottom: 4rem;
 }
 
-.about h3 {
+.about h3, .project-detail h3 {
   font-family: $Pacifico;
   font-size: 5rem;
   margin: 3rem 0;

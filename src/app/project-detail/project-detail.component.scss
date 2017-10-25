@@ -1,0 +1,22 @@
+@import '.././app.component';
+/** mixins from app.component **/
+@import '.././about/about.component';
+/** project-detail styles from about.component **/
+
+.project-detail img {
+  margin: 10px auto;
+  display: block;
+  width: -webkit-fill-available;
+  max-width: 600px;
+}
+
+h4 a {
+  color: $dark-red;
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-detail h3 {
+  margin: 20px;
+}
