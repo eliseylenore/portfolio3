@@ -1,9 +1,11 @@
 @import '.././app.component';
 /** mixins from app.component **/
+.container.about-me, .container.project-detail {
+  background-color: rgba(255, 255, 255, 0.75);
+  min-height: 100vh;
+}
 .about-me, .project-detail {
   padding-left:50px;
-  background-color: rgba(255, 255, 255, 0.75);
-  height: 120vh;
   p, li {
     color: $pine;
   }
