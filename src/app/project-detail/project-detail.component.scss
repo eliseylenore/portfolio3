@@ -6,7 +6,7 @@
 .project-detail img {
   margin: 10px auto;
   display: block;
-  width: -webkit-fill-available;
+  width: stretch;
   max-width: 600px;
 }
 
@@ -18,7 +18,7 @@ h4 a {
 }
 
 .project-detail h3 {
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 .text {
