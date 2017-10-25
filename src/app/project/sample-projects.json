@@ -1,17 +1,20 @@
-{ "projects": [{
-    "key": 1,
-    "title": "Dress To Impress",
-    "languages": "Angular 2, Stripe API, Firebase",
-    "url": "https://capstone-project-9ac28.firebaseapp.com/",
-    "description": [
-      {"text": "As a job seeker myself, I know that looking for a full-time job is not for the faint of heart. Even the smallest things can effect an impression. Since this is the case, I decided to mock up an online store that helps job seekers find professional-looking, worry-free clothing."},
-      {"text": "My site features interview-worthy clothing for men and women of all ages. I used this project as an opportunity to play with the Stripe API, which makes incorporating payments a cinch. Stripe even has a feature for Bitcoin payments, which I will have to explore in the future!"}
-      ],
-      "photos": [
-        "https://firebasestorage.googleapis.com/v0/b/portfolio3-e9276.appspot.com/o/Dress2Impress.PNG?alt=media&token=403dfa05-f0ef-46e5-b77c-322419f2e726"
-        ]
-  },
+{ "projects":
   {
+    "1": {
+      "key": "1",
+      "title": "Dress To Impress",
+      "languages": "Angular 2, Stripe API, Firebase",
+      "url": "https://capstone-project-9ac28.firebaseapp.com/",
+      "description": [
+        {"text": "As a job seeker myself, I know that looking for a full-time job is not for the faint of heart. Even the smallest things can effect an impression. Since this is the case, I decided to mock up an online store that helps job seekers find professional-looking, worry-free clothing."},
+        {"text": "My site features interview-worthy clothing for men and women of all ages. I used this project as an opportunity to play with the Stripe API, which makes incorporating payments a cinch. Stripe even has a feature for Bitcoin payments, which I will have to explore in the future!"}
+        ],
+        "photos": [
+          "https://firebasestorage.googleapis.com/v0/b/portfolio3-e9276.appspot.com/o/Dress2Impress.PNG?alt=media&token=403dfa05-f0ef-46e5-b77c-322419f2e726"
+          ]
+    },
+    "2": {
+      "key": "2",
       "title": "StartPup",
       "key": 2,
       "languages": "Angular 2, Firebase, Bootstrap",
@@ -23,5 +26,6 @@
         "photos": [
           "https://firebasestorage.googleapis.com/v0/b/portfolio3-e9276.appspot.com/o/StartPup.PNG?alt=media&token=0ca88f5a-15cc-4e98-817f-807c8aa3e365"
           ]
-    }]
+    }
+  }
 }

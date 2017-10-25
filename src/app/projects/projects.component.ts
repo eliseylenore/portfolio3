@@ -26,11 +26,11 @@ export class ProjectsComponent implements OnInit {
   ngOnInit() {
     this.projects = this.projectService.getProjects();
 
-    let subscription = this.projects.subscribe(
-          value => this.values.push(value),
-          error => this.anyErrors = true,
-          () => this.finished = true
-      );
+    // let subscription = this.projects.subscribe(
+    //       value => this.values.push(value),
+    //       error => this.anyErrors = true,
+    //       () => this.finished = true
+    //   );
   }
 
   goToDetailPage(clickedProject) {

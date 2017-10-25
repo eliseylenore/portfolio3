@@ -22,6 +22,7 @@ export class ProjectService {
   }
 
   getProjectById(projectId: string) {
-    return this.database.object('projects/' + projectId);
+    // console.log("type: " + typeof(this.database.object('projects/' + projectId).valueChanges()));
+    return this.database.object('projects/' + projectId).valueChanges();
   }
 }
