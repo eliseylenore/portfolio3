@@ -31,13 +31,12 @@ export class ContactFormComponent implements OnInit {
     })
   }
 
-  createMessage() {
-    const form = this.messageForm.value;
-    const name = form.name;
-    const comment = form.comment;
+  createMessage(message) {
+    this.name = message.name;
+    this.comment = message.comment;
     this.message.update({
-      name: name,
-      comment: comment
+      name: this.name,
+      comment: this.comment
     })
   }
 }

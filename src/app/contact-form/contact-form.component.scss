@@ -2,6 +2,10 @@
 /** mixins from app.component **/
 @import '.././contact/contact.component';
 
-h2, label {
+h4, label {
   color: white;
+}
+
+h4 {
+  margin-top: 50px;
 }

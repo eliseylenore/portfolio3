@@ -1,6 +1,10 @@
 @import '.././app.component';
 /** color mixins from app.component **/
 
+app-contact-form {
+  margin-top: 50px;
+}
+
 h3 {
   @include title();
 }
