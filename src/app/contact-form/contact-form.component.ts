@@ -24,8 +24,8 @@ export class ContactFormComponent implements OnInit {
 
   buildForm() {
     this.messageForm = this.fb.group({
-      name: new FormControl(),
-      comment: new FormControl()
+      name: ['', Validators.required],
+      comment: ['', Validators.required]
     })
   }
 
@@ -33,7 +33,7 @@ export class ContactFormComponent implements OnInit {
     const form = this.messageForm.value;
     const name = form.name;
     const comment = form.comment;
-    this.message.update({ 
+    this.message.update({
       name: name,
       comment: comment
     })
