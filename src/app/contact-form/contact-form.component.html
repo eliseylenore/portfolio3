@@ -1,3 +1,11 @@
-<p>
-  contact-form works!
-</p>
+<h2>Questions/Comments</h2>
+<form [formGroup]="messageForm" novalidate>
+  <div class="form-group">
+    <label class="center-block">Name:
+      <input class="form-control" formControlname="name">
+    </label>
+    <label class="center-block">Comments:
+      <input class="form-control" formControlname="comment">
+    </label>
+  </div>
+</form>
