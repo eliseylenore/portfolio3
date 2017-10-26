@@ -10,7 +10,7 @@ import { Validators, FormControl, FormGroup, FormBuilder } from '@angular/forms'
 export class ContactFormComponent implements OnInit {
 
   messageForm: FormGroup;
-  order: any;
+  message: any;
 
   constructor(
     private db: AngularFireDatabase,
@@ -19,7 +19,7 @@ export class ContactFormComponent implements OnInit {
 
   ngOnInit() {
     this.buildForm();
-    this.order = this.db.object('/messages/testMessage123')
+    this.message = this.db.object('/messages/testMessage123')
   }
 
   buildForm() {
@@ -29,4 +29,13 @@ export class ContactFormComponent implements OnInit {
     })
   }
 
+  createMessage() {
+    const form = this.messageForm.value;
+    const name = form.name;
+    const comment = form.comment;
+    this.message.update({ 
+      name: name,
+      comment: comment
+    })
+  }
 }

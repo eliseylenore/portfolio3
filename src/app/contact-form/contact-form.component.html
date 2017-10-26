@@ -1,11 +1,9 @@
-<h2>Questions/Comments</h2>
+<p>Questions/Comments</p>
 <form [formGroup]="messageForm" novalidate>
   <div class="form-group">
-    <label class="center-block">Name:
-      <input class="form-control" formControlname="name">
-    </label>
-    <label class="center-block">Comments:
-      <input class="form-control" formControlname="comment">
-    </label>
+    <input class="form-control" formControlname="name" placeholder="Your name">
+  </div>
+  <div class="form-group">
+    <textarea class="form-control" formControlname="comment" placeholder="Comments/questions"></textarea>
   </div>
 </form>

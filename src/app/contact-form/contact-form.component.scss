@@ -1,3 +1,7 @@
 @import '.././app.component';
 /** mixins from app.component **/
 @import '.././contact/contact.component';
+
+h2, label {
+  color: white;
+}
