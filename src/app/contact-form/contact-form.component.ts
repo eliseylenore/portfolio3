@@ -11,6 +11,8 @@ export class ContactFormComponent implements OnInit {
 
   messageForm: FormGroup;
   message: any;
+  name: string = '';
+  comment: string = '';
 
   constructor(
     private db: AngularFireDatabase,
@@ -25,7 +27,7 @@ export class ContactFormComponent implements OnInit {
   buildForm() {
     this.messageForm = this.fb.group({
       name: ['', Validators.required],
-      comment: ['', Validators.required]
+      comment: ['', Validators.compose([Validators.required, Validators.minLength(20), Validators.maxLength(500)])]
     })
   }
 

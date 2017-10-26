@@ -1,11 +1,14 @@
 <p>Questions/Comments</p>
 <form [formGroup]="messageForm" novalidate>
   <div class="form-group">
-    <input class="form-control" formControlname="name" placeholder="Your name">
+    <input class="form-control" formControlName="name" placeholder="Your name">
   </div>
   <div class="form-group">
-    <textarea class="form-control" formControlname="comment" placeholder="Comments/questions"></textarea>
+    <textarea class="form-control" formControlName="comment" placeholder="Comments/questions"></textarea>
   </div>
+  <input type="submit" class="btn btn-submit" value="Submit Form" [disabled]="!messageForm.valid">
 </form>
-<p>Form value: {{ messageForm.value | json }}</p>
-<p>Form status: {{ messageForm.status | json }}</p>
+
+<p >
+  {{messageForm.value  | json}}
+</p>
