@@ -4,8 +4,14 @@
     <div class="form-group">
       <input class="form-control" formControlName="name" placeholder="Your name">
     </div>
+    <div *ngIf="!messageForm.controls['name'].valid && (messageForm.controls['name'].dirty || messageForm.controls['name'].touched)">
+      <span class="warning">Name is required</span>
+    </div>
     <div class="form-group">
       <textarea class="form-control" formControlName="comment" placeholder="Comments/questions"></textarea>
+    </div>
+    <div *ngIf="!messageForm.controls['comment'].valid && (messageForm.controls['comment'].dirty || messageForm.controls['comment'].touched)">
+      <span class="warning">Your message must be between 20 and 500 characters</span>
     </div>
     <input type="submit" class="btn btn-submit" value="Submit Form" [disabled]="!messageForm.valid">
   </form>
