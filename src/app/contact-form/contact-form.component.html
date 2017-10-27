@@ -17,7 +17,7 @@
   </form>
 </div>
 
-<div id="forminfo" *ngIf="name">
+<ng-template #forminfo>
   <p>{{ name }}</p>
   <p>{{ comment }}</p>
-</div>
+</ng-template>
