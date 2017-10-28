@@ -1,5 +1,5 @@
-<h4>Questions/Comments</h4>
-<div class="col-sm-12">
+
+  <h4>Leave me a message</h4>
   <div *ngIf="!name; else forminfo">
     <form [formGroup]="messageForm" novalidate (ngSubmit)="createMessage(messageForm.value)">
       <div class="form-group">
@@ -22,4 +22,3 @@
     <p>{{ name }}</p>
     <p>{{ comment }}</p>
   </ng-template>
-</div>
