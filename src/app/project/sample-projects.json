@@ -9,7 +9,7 @@
         {"text": "As a job seeker myself, I know that looking for a full-time job is not for the faint of heart. Even the smallest things can effect an impression. Since this is the case, I decided to mock up an online store that helps job seekers find professional-looking, worry-free clothing."},
         {"text": "My site features interview-worthy clothing for men and women of all ages. I used this project as an opportunity to play with the Stripe API, which makes incorporating payments a cinch. Stripe even has a feature for Bitcoin payments, which I will have to explore in the future!"}
         ],
-        "photos": [{
+        "featuredPhoto": [{
           "url": "https://firebasestorage.googleapis.com/v0/b/portfolio3-e9276.appspot.com/o/Dress2Impress.PNG?alt=media&token=403dfa05-f0ef-46e5-b77c-322419f2e726",
           "alt": "",
           "text": ""
@@ -24,7 +24,7 @@
         {"text": "My main role in this project was to create the models necessary. We had five different models to create: user, category, contact, need and project. My team talked about what would be necessary for each before creating the models. We also modified them quite a bit as we went along."},
         {"text": "My second task was to beautify the project using the Bootstrap front-end framework. I referred to Bootsnip, a website that showcases bits of Bootstrap code that people have used for different parts of their websites, such as the carousel or menu. Bootstrap really does make all styling so quick and easy!"}
         ],
-        "photos": [{
+        "featuredPhoto": [{
           "url": "https://firebasestorage.googleapis.com/v0/b/portfolio3-e9276.appspot.com/o/StartPup.PNG?alt=media&token=0ca88f5a-15cc-4e98-817f-807c8aa3e365",
           "alt": "",
           "text": ""
@@ -37,14 +37,14 @@
       "title": "Sqwad Sports",
       "languages": "AngularJS, Firebase, Scss, Bootstrap",
       "description": [
-        {"text": "In June and July 2017 I had the privelege of interning for Sqwad Sports. I worked remotely with the company's senior developer to implement the redesign of the app's Admnin Portal. The first two weeks was largely using Scss and Bootstrap to make sure that everything looked pixel-perfect. During the next few weeks we fixed the functionality of the website using Typescript, a typed superset of JavaScript."},
+        {"text": "In June and July 2017 I had the privilege of interning for SQWAD Sports. I worked remotely with the company's senior developer to implement the redesign of the app's Admin Portal. The first two weeks was largely using Scss and Bootstrap to make sure that everything looked pixel-perfect. During the next few weeks we fixed the functionality of the website using Typescript, a typed superset of JavaScript."},
         {"text": "We used Trello to ensure that every detail of the redesign was attended to. If I wasn't sure about what the senior developer wanted, I would ask him through Slack or through Trello comments. I used the Trello approach in my Capstone Project as well, as the platform helps me keep track of the order and priority of to-dos as I work."}
         ],
+        "featuredPhoto": [{
+          "url": "https://firebasestorage.googleapis.com/v0/b/portfolio3-e9276.appspot.com/o/Dashboard2.png?alt=media&token=fa7d2531-4b09-4177-9004-d705397d4791",
+          "alt": "SQWAD Dashboard"
+          }],
         "photos": [{
-          "url": "https://firebasestorage.googleapis.com/v0/b/portfolio3-e9276.appspot.com/o/Dashboard%20(2).png?alt=media&token=c6a546fe-f1cb-4517-be58-c01cd83a5892",
-          "alt": "Sqwad Dashboard"
-          },
-          {
           "url": "https://firebasestorage.googleapis.com/v0/b/portfolio3-e9276.appspot.com/o/Dashboard.png?alt=media&token=e2a8c43a-ab21-46ce-a6c8-3d25a1a7ec80",
           "alt": "Sqwad Sports Admin Dashboard",
           "text": "The dashboard was the first element we styled and connected to data. The bar graph was surprisingly easy to make, thanks to MorrisJS. The four bottom tables were a different story. Not only did we have to style using tables (which in itself quite a task), but we also had a crash course in querying in Firebase."
@@ -52,7 +52,7 @@
         {
           "url": "https://firebasestorage.googleapis.com/v0/b/portfolio3-e9276.appspot.com/o/Current%20Game.png?alt=media&token=7f9702e2-af15-4cfc-80d5-251eb4b967db",
           "alt": "Current Game page",
-          "text": "As you can see, this website called for many differently styled buttons, each with different colors, sizes, padding and display. To help make the code cleaner and less confusing, I created a Scss mixin that allows the programmer to create a custom button with ease. This was the first project where I was able to see the power of Scss."
+          "text": "As you can see, this website called for many differently styled buttons, each with different colors, sizes, padding and display. To help make the code cleaner and less confusing, I created a Scss mix-in that allows the programmer to create a custom button with ease. This was the first project where I was able to see the power of Scss."
         },
         {
           "url": "https://firebasestorage.googleapis.com/v0/b/portfolio3-e9276.appspot.com/o/Players%20Page.png?alt=media&token=25c67437-6635-4937-9fcd-2605a64f7f12",

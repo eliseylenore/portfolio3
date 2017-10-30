@@ -42,6 +42,7 @@
   background-size: contain;
 }
 
+
 .overlay {
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
@@ -68,6 +69,7 @@ h2 {
 
 .panel-default {
   border: none;
+  background-repeat: no-repeat;
 }
 
 .panel-default, .panel-body {
