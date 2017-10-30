@@ -44,23 +44,9 @@ $nav-padding: 10px;
     padding-top: 120px;
   }
 
-  .nav > li > a.work {
-    padding: 40px;
-    margin-top:20px;
-  }
-
   .nav > li > a:hover, .nav > li > a.selected {
      padding: 35px;
-     margin-bottom: 10px;
-   }
-
-   .nav > li > a.work:hover, .nav > li > a.work.selected {
-     padding: 45px;
      margin-bottom: 20px;
-   }
-
-   .nav > li > a.about:hover, .nav > li > a.about.selected {
-     margin-bottom: 25px;
    }
 
   .top {
