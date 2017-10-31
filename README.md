@@ -1,5 +1,5 @@
 # My Portfolio
-### By **Elise St Hilaire**, hosted site here: [https://portfolio3-e9276.firebaseapp.com/projects/](https://portfolio3-e9276.firebaseapp.com/projects)
+### By **Elise St Hilaire**, hosted site here: [https://portfolio3-e9276.firebaseapp.com/](https://portfolio3-e9276.firebaseapp.com/projects)
 ![alt text](src/assets/img/hello.png)
 
 
