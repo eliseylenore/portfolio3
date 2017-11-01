@@ -3,14 +3,14 @@
     "1": {
       "key": "1",
       "title": "Dress To Impress",
-      "languages": "Angular 2, Stripe API, Firebase",
+      "languages": "Angular 4.0, Stripe API, Firebase",
       "url": "https://capstone-project-9ac28.firebaseapp.com/",
       "description": [
         {"text": "As a job seeker myself, I know that looking for a full-time job is not for the faint of heart. Even the smallest things can effect an impression. Since this is the case, I decided to mock up an online store that helps job seekers find professional-looking, worry-free clothing."},
         {"text": "My site features interview-worthy clothing for men and women of all ages. I used this project as an opportunity to play with the Stripe API, which makes incorporating payments a cinch. Stripe even has a feature for Bitcoin payments, which I will have to explore in the future!"}
         ],
         "featuredPhoto": [{
-          "url": "https://firebasestorage.googleapis.com/v0/b/portfolio3-e9276.appspot.com/o/dress2ImpressBackground.png?alt=media&token=8ae404f5-3fa7-4f6f-a040-fe8eaf23606d",
+          "url": "https://firebasestorage.googleapis.com/v0/b/portfolio3-e9276.appspot.com/o/dress2ImpressBackground.png?alt=media&token=a1ecc484-c54d-4e0b-9329-1f25b607f7e5",
           "alt": "",
           "text": ""
         }]
@@ -18,7 +18,7 @@
     "2": {
       "key": "2",
       "title": "StartPup",
-      "languages": "Angular 2, Firebase, Bootstrap",
+      "languages": "Angular 2.0, Firebase, Bootstrap",
       "description": [
         {"text": "I built this website with a lovely group of students at Epicodus(coding bootcamp). I like to say it is like a Linked In for startups. The app allows users to showcase their skills and get resources and support they need to make their ideas a reality. It also provides an opportunity to share it with a vibrant community of people."},
         {"text": "My main role in this project was to create the models necessary. We had five different models to create: user, category, contact, need and project. My team talked about what would be necessary for each before creating the models. We also modified them quite a bit as we went along."},

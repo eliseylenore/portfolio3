@@ -1,5 +1,5 @@
 
-  <h4>Leave me a message</h4>
+  <h4>Leave me a note!</h4>
   <div *ngIf="!name; else forminfo">
     <form [formGroup]="messageForm" novalidate (ngSubmit)="createMessage(messageForm.value)">
       <div class="form-group">
@@ -14,7 +14,7 @@
       <div *ngIf="!messageForm.controls['comment'].valid && (messageForm.controls['comment'].dirty || messageForm.controls['comment'].touched)">
         <span class="warning">Your message must be between 20 and 500 characters</span>
       </div>
-      <input type="submit" class="btn btn-submit" value="Submit Form" [disabled]="!messageForm.valid">
+      <input type="submit" class="btn btn-submit" value="Send" [disabled]="!messageForm.valid">
     </form>
   </div>
 
