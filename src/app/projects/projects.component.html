@@ -1,6 +1,6 @@
 <h3>My Work</h3>
 <div class="project-list">
-  <div class="col-md-6 project"  *ngFor="let project of projects | async" >
+  <div class="project"  *ngFor="let project of projects | async" >
     <div class="panel panel-default"  [ngStyle]= "{'background-image': 'url(' + project.featuredPhoto[0].url + ')'}">
       <div class="panel-body">
         <div class="overlay"  (click)="goToDetailPage(project)">

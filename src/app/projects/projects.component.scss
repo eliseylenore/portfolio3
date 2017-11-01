@@ -29,8 +29,17 @@
 
 /**** Regular scss ****/
 
+.project {
+  width: 400px;
+  margin: 20px;
+  flex-grow: 1;
+}
 .project-list {
+
   margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .panel-body {
@@ -79,6 +88,9 @@ h2 {
 h3 {
   @include title();
 }
-.truncate {
-  @include multiLineEllipsis($lineHeight: 1.3em, $lineCount: 2, $bgColor: white);
+
+@media screen and (min-width: 1560px) {
+  .panel-body {
+    height: 425px;
+  }
 }
