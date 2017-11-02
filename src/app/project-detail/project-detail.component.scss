@@ -7,7 +7,6 @@
   margin: 10px auto;
   display: block;
   width: stretch;
-  max-width: 600px;
 }
 
 h4 a {
@@ -29,4 +28,13 @@ h4 a {
   height: 300px;
   background-position: top center;
   background-repeat: no-repeat;
+}
+
+.margin-above {
+  margin-top: 50px;
+  p {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
 }
