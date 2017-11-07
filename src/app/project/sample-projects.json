@@ -34,7 +34,7 @@
     },
     "3": {
       "key": "3",
-      "title": "Sqwad Sports",
+      "title": "SQWAD Sports",
       "languages": "AngularJS, Firebase, Scss, Bootstrap",
       "description": [
         {"text": "In June and July 2017 I had the privilege of interning for SQWAD Sports. I worked remotely with the company's senior developer to implement the redesign of the app's Admin Portal. The first two weeks was largely using Scss and Bootstrap to make sure that everything looked pixel-perfect. During the next few weeks we fixed the functionality of the website using Typescript, a typed superset of JavaScript."},
@@ -46,7 +46,7 @@
           }],
         "photos": [{
           "url": "https://firebasestorage.googleapis.com/v0/b/portfolio3-e9276.appspot.com/o/Dashboard.png?alt=media&token=e2a8c43a-ab21-46ce-a6c8-3d25a1a7ec80",
-          "alt": "Sqwad Sports Admin Dashboard",
+          "alt": "SQWAD Sports Admin Dashboard",
           "text": "The dashboard was the first element we styled and connected to data. The bar graph was surprisingly easy to make, thanks to MorrisJS. The four bottom tables were a different story. Not only did we have to style using tables (which in itself quite a task), but we also had a crash course in querying in Firebase."
         },
         {

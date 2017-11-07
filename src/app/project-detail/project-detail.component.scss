@@ -3,10 +3,10 @@
 @import '.././about/about.component';
 /** project-detail styles from about.component **/
 
-.project-detail img {
+img {
   margin: 10px auto;
   display: block;
-  width: stretch;
+  width: 100%;
 }
 
 h4 a {
@@ -26,15 +26,11 @@ h4 a {
 
 .photo {
   height: 300px;
-  background-position: top center;
+  background-position: top left;
   background-repeat: no-repeat;
+  margin: 10px;
 }
 
 .margin-above {
   margin-top: 50px;
-  p {
-    background-color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
 }
