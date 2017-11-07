@@ -18,6 +18,7 @@
     "2": {
       "key": "2",
       "title": "StartPup",
+      "url": "https://github.com/eliseylenore/startpup",
       "languages": "Angular 2.0, Firebase, Bootstrap",
       "description": [
         {"text": "I built this website with a lovely group of students at Epicodus(coding bootcamp). I like to say it is like a Linked In for startups. The app allows users to showcase their skills and get resources and support they need to make their ideas a reality. It also provides an opportunity to share it with a vibrant community of people."},

@@ -7,7 +7,7 @@ $nav-padding: 10px;
 }
 
 .top a {
-  font-size: 20px;
+  font-size: 14px;
   color: white;
   font-variant: small-caps;
 }
@@ -51,6 +51,7 @@ $nav-padding: 10px;
 
   .top {
     position: fixed;
+    width: 200px;
     height: 120vh;
     background-image: url("https://vectr.com/eliseylenore/bqoyC6Lvx.svg?width=1920&height=1080&select=bqoyC6Lvxpage0");
     background-position: center;
