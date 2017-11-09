@@ -9,15 +9,11 @@ import { ProjectDetailComponent } from './project-detail/project-detail.componen
 const appRoutes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    component: AboutComponent
   },
   {
     path: 'projects',
     component: ProjectsComponent
-  },
-  {
-    path: 'about',
-    component: AboutComponent
   },
   {
     path: 'contact',

@@ -5,7 +5,7 @@
     </h3>
     <h4><a [href]='(projectToDisplay | async)?.url' target="_blank" >{{(projectToDisplay | async)?.url}}</a></h4>
     <!-- <div class="photo" [ngStyle]="{'background-image': 'url(' + (projectToDisplay | async)?.featuredPhoto[0].url + ')'}"> -->
-      <img class="col-xs-12" [alt]="(projectToDisplay | async)?.featuredPhoto[0].alt" [src]="(projectToDisplay | async)?.featuredPhoto[0].url"/>
+      <img class="" [alt]="(projectToDisplay | async)?.featuredPhoto[0].alt" [src]="(projectToDisplay | async)?.featuredPhoto[0].url"/>
     <div class="col-md-1"></div>
     <div class="text col-md-10">
       <p *ngFor="let paragraph of (projectToDisplay | async)?.description">
