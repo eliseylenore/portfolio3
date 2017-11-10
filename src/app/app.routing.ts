@@ -9,7 +9,7 @@ import { ProjectDetailComponent } from './project-detail/project-detail.componen
 const appRoutes: Routes = [
   {
     path: '',
-    component: AboutComponent
+    component: HomeComponent
   },
   {
     path: 'projects',

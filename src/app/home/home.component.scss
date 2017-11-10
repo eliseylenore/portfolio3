@@ -1,25 +1,15 @@
 @import '.././app.component';
 /** mixins from app.component **/
 
-.spiel h1 {
-  font-size: 50px;
-  padding-bottom: 1em;
+img {
+  display: block;
+  margin: 30px auto;
+  width: 100%;
 }
-
-.spiel h1, .photo-overlay h4 {
-  font-family: $Pacifico;
-}
-
-.spiel, .about h3 {
+h4 {
+  color: white;
+  font-size: 30px;
   text-align: center;
-}
-
-.spiel {
-  height: 250px;
-  background-image: url(../../assets/img/headerNeat.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 .spaceholder {
