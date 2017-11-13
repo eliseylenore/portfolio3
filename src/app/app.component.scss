@@ -2,7 +2,6 @@
 
 $bright-blue: #00b3e5;
 $darker-blue: #0396bf;
-$Pacifico: 'Pacifico', cursive;
 $dark-red: #bd3c2e;
 $light-red: #c45b51;
 $dusty-pink: #d9aba3;
@@ -12,7 +11,6 @@ $white: #ffffff;
 
 @mixin title() {
   color: $white;
-  font-family: $Pacifico;
   font-size: 5rem;
   margin: 3rem 0;
   text-align: center;
