@@ -18,6 +18,8 @@ import { ContactComponent } from './contact/contact.component';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
   authDomain: masterFirebaseConfig.authDomain,
@@ -42,7 +44,8 @@ export const firebaseConfig = {
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AngularFontAwesomeModule
   ],
   providers: [
     { provide: LocationStrategy, useClass: HashLocationStrategy }
