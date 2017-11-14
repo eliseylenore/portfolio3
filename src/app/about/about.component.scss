@@ -1,7 +1,46 @@
 @import '.././app.component';
 /** mixins from app.component **/
 
+/***** original home *****/
+
+.spiel img {
+  display: block;
+  margin: 30px auto;
+  width: 100%;
+}
+h4 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.spaceholder {
+  height: 50px;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+@media screen and (min-width: 425px) {
+  .spaceholder {
+    height: 150px;
+  }
+
+  .spiel h1 {
+    font-size: 72px;
+  }
+
+
+/***** about-me styles ******/
+
 .about-me, .project-detail, .contact-info {
+
+  .spiel img {
+    width: 50%;
+    margin-bottom: 0;
+  }
 
   background-color: #c45b51;
   box-shadow: -5px -5px 50px $dark-red;
@@ -41,6 +80,8 @@
 
 ol {
   padding-left: 20px;
+}
+
 }
 
 @media screen and (min-width: 445px) {
