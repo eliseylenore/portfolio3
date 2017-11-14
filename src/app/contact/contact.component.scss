@@ -1,9 +1,10 @@
 @import '.././app.component';
 /** color mixins from app.component **/
 
-body {
-  background-color: #c45b51;
-}
+@import '.././about/about.component';
+/** contact styles from about.component **/
+
+
 app-contact-form {
   margin-top: 50px;
 }
