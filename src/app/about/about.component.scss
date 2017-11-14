@@ -1,11 +1,15 @@
 @import '.././app.component';
 /** mixins from app.component **/
+
 .about-me, .project-detail {
-  background-color: rgba(255, 255, 255, 0.75);
+
+  background-color: #c45b51;
+  box-shadow: -5px -5px 50px $dark-red;
+
+
   min-height: 130vh;
   p, li {
     text-align: justify;
-    color: $pine;
   }
 
   ul {
@@ -13,7 +17,7 @@
     padding-left: 0;
     font-weight: bold;
   }
-  color: $dark-red;
+  color: white;
   h4 {
     font-size:24px;
     font-weight: bold;

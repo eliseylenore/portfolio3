@@ -1,6 +1,9 @@
 @import '.././app.component';
 /** color mixins from app.component **/
 
+body {
+  background-color: #c45b51;
+}
 app-contact-form {
   margin-top: 50px;
 }
