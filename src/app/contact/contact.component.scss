@@ -19,23 +19,14 @@ p, a, h4 {
   color: $white;
 }
 
+h4 {
+  text-align: left;
+}
+
 .contact-info a {
   display: block;
-  padding: 0 0 0 35px;
   margin-bottom: 10px;
   min-height: 25px;
   background-size: 30px 30px;
   background-repeat: no-repeat;
-}
-
-.contact-info a.linkedin {
-  background-image: url("https://vectr.com/eliseylenore/gi6lUV9Lh.svg?width=50&height=50&select=bjE8nXOcI");
-}
-
-.contact-info a.email {
-  background-image: url("https://vectr.com/eliseylenore/gi6lUV9Lh.svg?width=50&height=50&select=cGybFxfh");
-}
-
-.contact-info a.facebook {
-  background-image: url("https://vectr.com/eliseylenore/gi6lUV9Lh.svg?width=50&height=50&select=gi6lUV9Lhpage0");
 }

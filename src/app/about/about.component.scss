@@ -6,7 +6,7 @@
 .spiel img {
   display: block;
   margin: 30px auto;
-  width: 100%;
+  width: 60%;
 }
 h4 {
   color: white;
@@ -43,7 +43,7 @@ button {
   }
 
   background-color: #c45b51;
-  box-shadow: -5px -5px 50px $dark-red;
+  box-shadow: 0 0 15px $dark-red;
 
 
   min-height: 130vh;
@@ -52,16 +52,16 @@ button {
   }
 
   ul {
-    list-style: none;
-    padding-left: 0;
-    font-weight: bold;
+    padding-left: 40px;
   }
+
   color: white;
-  h4 {
-    font-size:24px;
-    font-weight: bold;
-  }
+
   font-size: 20px;
+
+  h4 {
+    margin-bottom: 20px;
+  }
 }
 .profile-pic {
   border-radius: 25%;
