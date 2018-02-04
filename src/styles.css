@@ -1,8 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-image: url("https://vectr.com/eliseylenore/g45HR67sZo.svg?width=1920&height=1080&select=fNU9U7XA");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size:cover;
+}
+
+app-root p {
+    margin: 20px 0;
 }

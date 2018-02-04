@@ -9,9 +9,9 @@ $tan: #eedbc0;
 $pine: #586138;
 $white: #ffffff;
 $golden: #ffcf4b;
+$black: #000;
 
 @mixin title() {
-  color: $white;
   font-size: 5rem;
   margin: 3rem 0;
   text-align: center;
@@ -19,6 +19,5 @@ $golden: #ffcf4b;
 
 
 body {
-  color: white;
-  background-color: indianred;
+  color: $black;
 }
