@@ -8,13 +8,13 @@ $nav-padding: 10px;
 
 .top a {
   font-size: 18px;
-  color: white;
   font-variant: small-caps;
 }
 
 .top {
   overflow: auto;
   padding: $nav-padding;
+  background-color: $dusty-pink;
 }
 
 .top .title {
@@ -55,12 +55,11 @@ $nav-padding: 10px;
 @media screen and (min-width: 768px) {
 
   .nav > li > a {
-    color: $golden;
+    color: $black;
     // background-image: url("https://vectr.com/eliseylenore/bqoyC6Lvx.svg?width=377.95&height=377.95&select=bamzxcY40y");
     // background-size: contain;
     // background-position: center;
     // background-repeat: no-repeat;
-    padding: 30px;
     margin-bottom: 30px;
   }
   .sidebar-nav {
@@ -68,13 +67,17 @@ $nav-padding: 10px;
   }
 
   .nav > li > a:hover, .nav > li > a.selected {
-     padding: 35px;
      margin-bottom: 20px;
    }
 
   .top {
-    position: fixed;
     width: 200px;
     height: 120vh;
   }
+
+  app-dashboard {
+    padding-left: 0px !important;
+  }
+
+  
 }

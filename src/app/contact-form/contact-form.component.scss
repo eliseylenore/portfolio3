@@ -2,20 +2,14 @@
 /** mixins from app.component **/
 @import '.././contact/contact.component';
 
-h4, label {
-  color: white;
-}
-
 h4 {
   margin-top: 50px;
 }
 
 .warning {
   color: red;
-  margin: -5px 0 15px;
   display: inline-block;
   background-color: rgba(255,255,255,0.8);
-  padding: 7px;
   border-radius: 2.5px;
   font-size: 12px;
 }

@@ -7,7 +7,6 @@
   position: relative;
   line-height: $lineHeight;
   max-height: $lineHeight * $lineCount;
-  text-align: justify;
   margin-right: -1em;
   padding-right: 1em;
   &:before {
@@ -34,8 +33,8 @@
   margin: 20px;
   flex-grow: 1;
 }
-.project-list {
 
+.project-list {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
