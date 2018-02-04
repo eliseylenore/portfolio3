@@ -4,30 +4,37 @@
   <h4><button (click)="showAbout = !showAbout">Front End Developer <i class="fa fa-angle-right" aria-hidden="true"></i></button></h4>
 </div>
 <div *ngIf="showAbout" class="about-me">
-  <div class="row about">
+  <div class="about">
     <!-- <img src="https://vectr.com/eliseylenore/dMokfDVXJ.png?width=640&height=300&select=dMokfDVXJpage0" alt="Elise St Hilaire name tag"/> -->
     <div *ngIf="showAbout" class="row spiel">
       <h4><button (click)="showAbout = !showAbout"><img src="../../../assets/img/elise.png" alt="Elise St Hilaire"/><i class="fa fa-angle-down" aria-hidden="true"></i></button></h4>
     </div>
-    <div class="col-md-7">
-      <img src="../../../assets/img/profilePic.jpg" alt="Elise St Hilaire" class="center-block profile-pic"/>
-      <div class="about-text">
-        <h4>Background</h4>
-        <p>I graduated with a bachelor's degree in Illustration in 2013, and then worked for an online investing company. After three years of talking about the stock market all day, I decided it was time for a change. I enrolled in Epicodus, a 5-month programming bootcamp with a brand-new campus in Seattle. </p>
-        <p>After graduating from Epicodus in July 2017 (with internship experience!), I have been honing my knowledge of data structures. Programming combines the skills I learned in those two very different environments. Coding lets me use the creativity I practiced when going to school, along with the customer service skills learned in banking, to create a great user experience.</p>
-        <p>In my freetime, I still love to draw. For health I run, practice yoga, and play wiffle ball.</p>
+    <div class="row">
+      <div class="col-md-7">
+        <img src="../../../assets/img/profilePic.jpg" alt="Elise St Hilaire" class="center-block profile-pic" />
+        <div class="about-text">
+          <h4>Background</h4>
+          <p>I graduated with a bachelor's degree in Illustration in 2013, and then worked for an online investing company. After
+            three years of talking about the stock market all day, I decided it was time for a change. I enrolled in Epicodus,
+            a 5-month programming bootcamp with a brand-new campus in Seattle. </p>
+          <p>After graduating from Epicodus in July 2017 (with internship experience!), I have been honing my knowledge of data structures.
+            Programming combines the skills I learned in those two very different environments. Coding lets me use the creativity
+            I practiced when going to school, along with the customer service skills learned in banking, to create a great user
+            experience.</p>
+          <p>In my freetime, I still love to draw. For health I run, practice yoga, and play wiffle ball.</p>
+        </div>
       </div>
-    </div>
-    <div class="col-md-3">
-      <h4>Top Skills</h4>
-      <ul>
-        <li>HTML5</li>
-        <li>JavaScript</li>
-        <li>jQuery</li>
-        <li>CSS/Scss</li>
-        <li>C#/.NET</li>
-        <li>Angular</li>
-      </ul>
+      <div class="col-md-3">
+        <h4>Top Skills</h4>
+        <ul>
+          <li>HTML5</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+          <li>CSS/Scss</li>
+          <li>C#/.NET</li>
+          <li>Angular</li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
