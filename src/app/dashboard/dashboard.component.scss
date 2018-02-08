@@ -2,27 +2,16 @@
 $nav-padding: 10px;
 /** mixins from app.component **/
 
-.top, .top a {
-    text-align: center;
-}
-
-.top a {
-  font-size: 18px;
-  font-variant: small-caps;
-}
-
 .top {
   overflow: auto;
-  padding: $nav-padding;
   background-color: $dusty-pink;
+  a {
+    text-align: center;
+    font-size: 18px;
+    font-variant: small-caps;
+  }
 }
 
-.top .title {
-  font-size: 40px;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
-}
 .nav > li > a:hover, .nav > li > a:focus, .nav > li > a.selected{
   background-color: transparent;
   font-weight: bold;
@@ -71,7 +60,6 @@ $nav-padding: 10px;
    }
 
   .top {
-    width: 200px;
     height: 120vh;
   }
 
